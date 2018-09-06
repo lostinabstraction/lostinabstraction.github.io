@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Permalinks
+permalink:          pretty
+
+# Setup
+title:              lost in abstraction
+#tagline:           The Jekyll Butler
+url:                http://lostinabstraction.github.io
+paginate:           5
+baseurl:            ""
+exclude:            []
+
+#email: cameron.hart@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I will think of something.
+twitter_username: mihneabalta
+github_username:  lostinabstraction
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Mihnea Balta
+  url:               https://twitter.com/mihneabalta
+#  email:             mihnea.balta@gmail.com
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-gist

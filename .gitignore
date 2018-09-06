@@ -1,0 +1,12 @@
+_gh_pages
+_site
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.DS_Store
+._*
+Thumbs.db
+validation-status.json
+validation-report.json
+node_modules
+Gemfile.lock
